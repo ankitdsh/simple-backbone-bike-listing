@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CREDR- DEMO BACKBONE JS APP</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+    <script language="javascript" src="js/libs/underscore.js"></script>
+    <script language="javascript" src="js/libs/jquery.min.js"></script>
+    <script language="javascript" src="js/libs/backbone.js"></script>
+    <script language="javascript" src="js/libs/bootstrap.js"></script>
+    <script language="javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="page-header">
+        <h1>LIST OF PULSAR IN <span id="city">Bangalore</span>
+        </h1>
+    </div>
+
+
+    <div id="bikeList" class="container-fluid">
+        <!-- The Bikes will be inserted here -->
+
+    </div>
+
+
+    <!-- BOOTSTRAP MODAL POPUP -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Bike Details</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- <p>BIKE DETAILS</p> -->
+                    <p class="text-warning"><small>DO YOU WANT TO LOOK AT MORE DETAILS?</small></p>
+                    <a id="bikeDetailLink" href="#">Click here</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/template" id="bike_template">
+
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="page-header">
+                <h1><%=bike_name%> <small>Rating <%=total_rating%></small></h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src=<%=image[0]%> />
+                    <img src=<%=image[1]%> />
+                    <img src=<%=image[2]%> />
+                    <img src=<%=image[3]%> />
+                </div>
+                <div class="col-md-6">
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row ">
+                                <div class="col-md-4">
+                                    <h4>Current Location</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Year of Manufacture</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Manufacturer</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row ">
+                                <div class="col-md-4">
+
+                                    <h2><%=location%></h2>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h2><%=year_of_mfg%></h2>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h2><%=bike_make%></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row ">
+                                <div class="col-md-4">
+                                    <h4>Total Displacement</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Fuel Mileage (petrol/ltr)</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Kilometers Driven</h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row ">
+
+
+                                <div class="col-md-4">
+
+                                    <h2><%=cc%>cc</h2>
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <h2><%=mileage%> Kms.</h2>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h2><%=km_driven%> Kms.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row ">
+                                <div class="col-md-4">
+
+                                    <h2>Price</h2>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4> Discounted Price</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4> Discount Amount</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row ">
+                                <div class="col-md-4">
+
+                                    <h2>Rs.<%=max_price%></h2>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h2>Rs.<%=display_price%></h2>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h2>Rs.<%=smart_save_price%></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row ">
+                                <div class="col-md-4">
+                                    <h4>Test Drive</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Available</h4>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Warranty</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row ">
+                                <div class="col-md-4">
+
+                                    <h2><%if(can_be_booked_for_test_drive){%>Yes <%}else{%>No<%}%></h2>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <h2><%if(!is_blocked){%>Yes <%}else{%>No<%}%></h2>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2><%if(warranty_provided){%>Yes<%}else{%>No<%}%></h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+
+</html>

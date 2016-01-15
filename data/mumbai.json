@@ -1,0 +1,431 @@
+{
+    "sort": [{
+        "select": false,
+        "name": "Price",
+        "key": "max_price",
+        "order": 0
+    }, {
+        "select": false,
+        "name": "Year Of mfg",
+        "key": "year_of_mfg",
+        "order": 1
+    }, {
+        "select": true,
+        "name": "Created Date",
+        "key": "created_date",
+        "order": 2
+    }, {
+        "select": false,
+        "name": "Rating",
+        "key": "total_rating",
+        "order": 3
+    }, {
+        "select": false,
+        "name": "Km Driven",
+        "key": "km_driven",
+        "order": 4
+    }, {
+        "select": false,
+        "name": "cc",
+        "key": "cc",
+        "order": 5
+    }],
+    "success": true,
+    "totalResult": 91,
+    "results": [{
+        "bike_name": "Bajaj Pulsar 150 DTS-i",
+        "cc": 150,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/t2r99uvqotknmuzyrcpn.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/whbfhadfkbcqzl1vjaqb.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/pjyiazrwziddpmicvo1a.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/bzm8ab7tr2dcrtg7pdt3.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ecljmv5axlrnjgivo7io.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/t7irg1btysiipb8jqk12.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ok19ouapsst2dz5s8oe3.jpg"],
+        "bike_model": "Pulsar",
+        "year_of_mfg": 2009,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.1",
+        "smart_save_price": 3000,
+        "warranty_provided": null,
+        "discounted_price": 26000,
+        "location": "Bhandup (W)",
+        "rsa_provided": null,
+        "mileage": 50,
+        "is_shortlisted": false,
+        "display_price": 26000,
+        "bike_type": 11,
+        "km_driven": 44230,
+        "bike_make": "Bajaj",
+        "bike_variant": "150 DTS-i",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 29000,
+        "bike_id": 21483,
+        "can_be_booked_for_test_drive": null
+    }, {
+        "bike_name": "Bajaj Pulsar 135LS",
+        "cc": 135,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/occb3dd3kwcbmlctmfnq.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/rlihsfl1qkgwrrkvksau.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/cyz1t4am3ifk6go40nsh.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/qbcip3xrwmg09vtsreuf.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/xwsudpkncbdr7joiujse.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/vtvualsintghpfbbkit9.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ei4kpl2hwd9n381nghcj.jpg"],
+        "bike_model": "Pulsar 135LS",
+        "year_of_mfg": 2011,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "3.8",
+        "smart_save_price": 4000,
+        "warranty_provided": true,
+        "discounted_price": 28000,
+        "location": "Ulhasnagar",
+        "rsa_provided": true,
+        "mileage": 40,
+        "is_shortlisted": false,
+        "display_price": 28000,
+        "bike_type": 11,
+        "km_driven": 0,
+        "bike_make": "Bajaj",
+        "bike_variant": "",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 32000,
+        "bike_id": 14729,
+        "can_be_booked_for_test_drive": false
+    }, {
+        "bike_name": "Bajaj Pulsar 135 LS",
+        "cc": 135,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ldgcufg74lkmols2gz3t.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/svvqkaxwzxi61crtaybn.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/llid9gaufv8bo5as9wln.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ypiqslsc7qcx9uokcprq.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/h3hntiqxpxs8p2vgavpz.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/acylhyzmlihnme2lxwnv.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/msmjv7aryjbaas5dxnyp.jpg"],
+        "bike_model": "Pulsar",
+        "year_of_mfg": 2010,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "3.9",
+        "smart_save_price": 3000,
+        "warranty_provided": null,
+        "discounted_price": 29000,
+        "location": "Dahisar (E)",
+        "rsa_provided": null,
+        "mileage": 40,
+        "is_shortlisted": false,
+        "display_price": 29000,
+        "bike_type": 11,
+        "km_driven": 24629,
+        "bike_make": "Bajaj",
+        "bike_variant": "135 LS",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 32000,
+        "bike_id": 21537,
+        "can_be_booked_for_test_drive": null
+    }, {
+        "bike_name": "Bajaj Pulsar 135LS",
+        "cc": 135,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/elash1vfkw0ihsx3uxzx.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/pkaxvji7tdpwp0bvwu9c.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ds1f1uvhzme7jeot82zk.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/jaelj4kkqw738ic80q5v.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/rnppzyqocur8asqfldzx.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/uqju5ilidrutfowrekmp.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/honc7rcrxvahitj660i5.jpg"],
+        "bike_model": "Pulsar 135LS",
+        "year_of_mfg": 2010,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.3",
+        "smart_save_price": 5000,
+        "warranty_provided": true,
+        "discounted_price": 32000,
+        "location": "Thane",
+        "rsa_provided": true,
+        "mileage": 60,
+        "is_shortlisted": false,
+        "display_price": 32000,
+        "bike_type": 11,
+        "km_driven": 24967,
+        "bike_make": "Bajaj",
+        "bike_variant": "0",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 37000,
+        "bike_id": 12793,
+        "can_be_booked_for_test_drive": false
+    }, {
+        "bike_name": "Bajaj Pulsar 180",
+        "cc": 180,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/c4ek35cgicl0b3l2ro3r.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/xwuv0hdvptcbcf2e9zay.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/cqam87lkdlaxtkqefadr.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/spb7rsjoavnc52zhrqx7.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/rekth3a0jboixd7gihxu.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/qcr6zskdmcqc1lmk9v44.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/zn6ev0oqjxobhquavukt.jpg"],
+        "bike_model": "Pulsar 180",
+        "year_of_mfg": 2010,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.0",
+        "smart_save_price": 5000,
+        "warranty_provided": true,
+        "discounted_price": 32000,
+        "location": "Kurla",
+        "rsa_provided": true,
+        "mileage": 55,
+        "is_shortlisted": false,
+        "display_price": 32000,
+        "bike_type": 11,
+        "km_driven": 54783,
+        "bike_make": "Bajaj",
+        "bike_variant": "0",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 37000,
+        "bike_id": 11048,
+        "can_be_booked_for_test_drive": false
+    }, {
+        "bike_name": "Bajaj Pulsar 135LS ",
+        "cc": 135,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/sksiqkry32lhiq9yu9w0.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/bupstsihabj7rkhovb0m.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ra3hgumxqsibroyco6hz.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/a39hvajkjw2y7yyzhir5.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/t47p7qzqbm0jv3lddmpa.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/rxxrvyaclrmkjm3qq5j3.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/o2y4o0ofq6haae1as4wi.jpg"],
+        "bike_model": "Pulsar 135LS",
+        "year_of_mfg": 2011,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.5",
+        "smart_save_price": 6000,
+        "warranty_provided": true,
+        "discounted_price": 32000,
+        "location": "Vasai Road",
+        "rsa_provided": true,
+        "mileage": 45,
+        "is_shortlisted": false,
+        "display_price": 32000,
+        "bike_type": 11,
+        "km_driven": 29459,
+        "bike_make": "Bajaj",
+        "bike_variant": "",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 38000,
+        "bike_id": 17013,
+        "can_be_booked_for_test_drive": false
+    }, {
+        "bike_name": "Bajaj Pulsar 135 LS",
+        "cc": 135,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/l9efwhbig3ctpkgngybm.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/mlsxipg0i5f7liekh9jq.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ls9ir9vm7q32nfnsvemb.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/hv7qxvy8dtdvmafykefj.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/nd6vin9nhuqnupvhkrcl.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/mvodtfl5amecotsipzfp.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/so6fo44c6fwc1nlzhzjj.jpg"],
+        "bike_model": "Pulsar",
+        "year_of_mfg": 2011,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.0",
+        "smart_save_price": 3000,
+        "warranty_provided": null,
+        "discounted_price": 32000,
+        "location": "Dahisar (E)",
+        "rsa_provided": null,
+        "mileage": 45,
+        "is_shortlisted": false,
+        "display_price": 32000,
+        "bike_type": 11,
+        "km_driven": 55822,
+        "bike_make": "Bajaj",
+        "bike_variant": "135 LS",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 35000,
+        "bike_id": 21532,
+        "can_be_booked_for_test_drive": null
+    }, {
+        "bike_name": "Bajaj Pulsar 180 DTS-i",
+        "cc": 180,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/mqaqgpiuflakfxbz8cmk.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/b388agxfk6jhulh4rpx7.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/nuhpryah83hmcdwahzc5.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/t7bmochzorsttxgizp2s.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ane1ammnk9sxyqoum7mt.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/szh4nkmdi00gj1wvjtsa.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/yysjixwzoyfc5lf2k474.jpg"],
+        "bike_model": "Pulsar",
+        "year_of_mfg": 2011,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.1",
+        "smart_save_price": 2000,
+        "warranty_provided": null,
+        "discounted_price": 33000,
+        "location": "Bhandup (W)",
+        "rsa_provided": null,
+        "mileage": 30,
+        "is_shortlisted": false,
+        "display_price": 33000,
+        "bike_type": 11,
+        "km_driven": 33934,
+        "bike_make": "Bajaj",
+        "bike_variant": "180 DTS-i",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 35000,
+        "bike_id": 21756,
+        "can_be_booked_for_test_drive": null
+    }, {
+        "bike_name": "Bajaj Pulsar 150 DTS-i",
+        "cc": 150,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/xon6kfcpboixhfms9zdd.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/tdheb6jg3qtdf5dvtybb.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/xmib4lrqeyl0lhyuovbj.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/ieano8qktem5a2erwjhb.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/pnlgtkeqh3aixeft7qt4.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/wveguvytqxy0zcbtumte.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/xvstdszoru9zq7npafdx.jpg"],
+        "bike_model": "Pulsar",
+        "year_of_mfg": 2012,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.5",
+        "smart_save_price": 2000,
+        "warranty_provided": null,
+        "discounted_price": 33000,
+        "location": "Bhandup (W)",
+        "rsa_provided": null,
+        "mileage": 40,
+        "is_shortlisted": false,
+        "display_price": 33000,
+        "bike_type": 11,
+        "km_driven": 41856,
+        "bike_make": "Bajaj",
+        "bike_variant": "150 DTS-i",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 35000,
+        "bike_id": 22226,
+        "can_be_booked_for_test_drive": null
+    }, {
+        "bike_name": "Bajaj Pulsar 135LS",
+        "cc": 135,
+        "image": ["https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/lbpp44el7vu0xlksmuzg.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/aqhkesok8jmpfzfpsonw.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/nc2yuo6tqjbumsrcbmll.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/stg2wt1feucjfqklclg8.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/y3vwjnssyxn0pdy3huix.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/n9cn2549btu46p4fom7n.jpg", "https://res.cloudinary.com/credrr-in/image/upload/c_scale,h_260,q_100,w_357/vcxused5oa0itelemdj0.jpg"],
+        "bike_model": "Pulsar 135LS",
+        "year_of_mfg": 2011,
+        "available_slots": {
+            "slot_values": [],
+            "slot_content": []
+        },
+        "city": "Mumbai",
+        "grab_deal": false,
+        "total_rating": "4.1",
+        "smart_save_price": 5000,
+        "warranty_provided": true,
+        "discounted_price": 34000,
+        "location": "Ulhasnagar",
+        "rsa_provided": true,
+        "mileage": 50,
+        "is_shortlisted": false,
+        "display_price": 34000,
+        "bike_type": 11,
+        "km_driven": 26974,
+        "bike_make": "Bajaj",
+        "bike_variant": "",
+        "is_blocked": false,
+        "is_reserved": false,
+        "max_price": 39000,
+        "bike_id": 14471,
+        "can_be_booked_for_test_drive": false
+    }],
+    "filter": [{
+        "endkey": "maxPriceRange",
+        "end": 200000,
+        "name": "Price",
+        "startkey": "minPriceRange",
+        "selected": false,
+        "start": 0,
+        "type": "Range"
+    }, {
+        "endkey": "maxcc",
+        "end": 500,
+        "name": "CC",
+        "startkey": "mincc",
+        "selected": false,
+        "start": 100,
+        "type": "Range"
+    }, {
+        "endkey": "maxMakeYear",
+        "end": 2015,
+        "name": "Year Of Mfg",
+        "startkey": "minMakeYear",
+        "selected": false,
+        "start": 2005,
+        "type": "Range"
+    }, {
+        "endkey": "maxKmDriven",
+        "end": 200000,
+        "name": "Km Driven",
+        "startkey": "minKmDriven",
+        "selected": false,
+        "start": 0,
+        "type": "Range"
+    }, {
+        "endkey": "maxMileage",
+        "end": 200,
+        "name": "Average",
+        "startkey": "minMileage",
+        "selected": false,
+        "start": 0,
+        "type": "Range"
+    }, {
+        "type": "list",
+        "name": "Bike Make",
+        "key": "bikeMake",
+        "option": [{
+            "selected": true,
+            "name": "Honda",
+            "value": "Honda"
+        }, {
+            "selected": true,
+            "name": "Bajaj",
+            "value": "Bajaj"
+        }]
+    }, {
+        "type": "list",
+        "name": "Bike Model",
+        "key": "bikeModel",
+        "option": [{
+            "selected": false,
+            "name": "Activa",
+            "value": "Activa"
+        }, {
+            "selected": false,
+            "name": "Pulsar",
+            "value": "Pulsar"
+        }]
+    }, {
+        "type": "list",
+        "name": "Bike Type",
+        "key": "bikeType",
+        "option": [{
+            "selected": false,
+            "name": "Bike",
+            "value": "Bike"
+        }, {
+            "selected": false,
+            "name": "Scooter",
+            "value": "Scooter"
+        }]
+    }, {
+        "type": "list",
+        "name": "Bike Area",
+        "key": "bikeArea",
+        "option": [{
+            "selected": false,
+            "name": "Powai",
+            "value": "Powai"
+        }, {
+            "selected": false,
+            "name": "Andheri",
+            "value": "Andheri"
+        }]
+    }],
+    "key": "pulsar",
+    "type": "keyword"
+}
